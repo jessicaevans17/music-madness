@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  --black: #0c0c0cbf;
 }
 
 html {
@@ -9,10 +10,18 @@ html {
 body {
   margin: 0;
   min-height: 100%;
+  color: var(--black);
 }
 
 a {
   text-decoration: none;
+  cursor: pointer;
+  color: var(--black);
+}
+
+.home-link {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .home-page,
@@ -23,8 +32,14 @@ a {
   align-items: center;
 }
 
+.band {
+  margin: 1rem;
+  padding: 1rem;
+  border-bottom: solid 2px var(--black);
+}
+
 img {
-  box-shadow: 3px 3px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 3px 3px 5px 0px var(--black);
 }
 
 nav {
