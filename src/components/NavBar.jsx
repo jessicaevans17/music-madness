@@ -6,16 +6,24 @@ class NavBar extends Component {
     return (
       <nav>
         <section>
-          <Link to="/">Home</Link>
+          <Link to="/" className="nav-link">
+            Home
+          </Link>
         </section>
         <section>
-          <Link to="/father-john-misty">Father John Misty</Link>
+          <Link to="/father-john-misty" className="nav-link">
+            Father John Misty
+          </Link>
         </section>
         <section>
-          <Link to="/modest-mouse">Modest Mouse</Link>
+          <Link to="/modest-mouse" className="nav-link">
+            Modest Mouse
+          </Link>
         </section>
         <section>
-          <Link to="dr-dog">Dr. Dog</Link>
+          <Link to="dr-dog" className="nav-link">
+            Dr. Dog
+          </Link>
         </section>
       </nav>
     )

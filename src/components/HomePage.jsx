@@ -5,7 +5,6 @@ class HomePage extends Component {
   render() {
     return (
       <div className="home-page">
-        <h1>Home</h1>
         <main>
           <section className="band">
             <Link to="/father-john-misty" className="home-link">

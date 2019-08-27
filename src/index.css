@@ -1,6 +1,11 @@
 :root {
   font: 16px / 1 sans-serif;
   --black: #0c0c0cbf;
+  --color1: #813405;
+  --color2: #d45113;
+  --color3: #f9a03f;
+  --color4: #f8dda4;
+  --color5: #ddf9c1;
 }
 
 html {
@@ -10,18 +15,22 @@ html {
 body {
   margin: 0;
   min-height: 100%;
-  color: var(--black);
 }
 
 a {
   text-decoration: none;
   cursor: pointer;
-  color: var(--black);
+  color: var(--color2);
 }
 
 .home-link {
   font-size: 1.5rem;
   font-weight: bold;
+}
+
+.nav-link {
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
 .home-page,
@@ -30,12 +39,21 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
+  color: var(--color1);
+}
+
+.band-page {
+  margin-top: 5rem;
 }
 
 .band {
   margin: 1rem;
   padding: 1rem;
   border-bottom: solid 2px var(--black);
+}
+
+.band p {
+  line-height: 1.5;
 }
 
 img {
